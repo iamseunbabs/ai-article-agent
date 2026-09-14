@@ -1,0 +1,23 @@
+# List the topics you want daily articles about.
+# Add/remove/edit freely — one article per topic per day.
+
+topics:
+  - name: "African Tech News"
+    query: "African tech startup news"
+    words: 500
+
+  - name: "Startup Funding in Africa"
+    query: "Africa startup funding raise investment"
+    words: 500
+
+  - name: "African Startup Opportunities & Grants"
+    query: "Africa startup grant accelerator application"
+    words: 500
+
+  - name: "Fintech in Africa"
+    query: "African fintech startup"
+    words: 500
+
+# How many source articles to pull per topic before writing.
+# More sources = more balanced article, but slower + more API usage.
+sources_per_topic: 4
